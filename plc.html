@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PLC</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="loadLastData()">
+    <h1>Last value:</h1>
+    <h1 id="last-value"></h1>
+    <button onclick="generateRandomData()">
+        Generate Random Data
+    </button>
+    <button onclick="loadHistoricalData()">
+        Refresh historical data
+    </button>
+    <canvas id="plc-data"></canvas>
+    <script src="node_modules/chart.js/dist/chart.umd.js"></script>
+    <script src="serverConnection.js"></script>
+
+</body>
+</html>

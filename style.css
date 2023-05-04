@@ -11,3 +11,8 @@ h4, h5, h6{
     text-align: right;
     color: white;
 }
+
+#plc-data {
+    max-height: 400px;
+    max-width: 400px;
+}
